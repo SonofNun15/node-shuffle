@@ -1,5 +1,5 @@
 export function shuffle<TItem>(array: TItem[]): TItem[] {
-  const shuffleItems = array.map(makeShuffleItem)
+  const shuffleItems = array.map(makeShuffleItem);
   return shuffleItems.sort(compareShuffleItems)
     .map(shuffleItem => shuffleItem.item);
 }
