@@ -12,3 +12,8 @@ npm start All Of Your Items To Shuffle
 // Returns items in random order, example output:
 // [ 'Items', 'Of', 'To', 'Your', 'Shuffle', 'All' ]
 ```
+
+## Tests
+```
+npm test
+```
